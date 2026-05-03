@@ -17,7 +17,11 @@ export const metadata: Metadata = {
   title: "TrueBrands | Digital Marketing Agency",
   description: "We Build & Scale Digital Brands. Premium SEO, Social Media, and Performance Marketing services.",
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    apple: "/favicon.png",
   },
 };
 
