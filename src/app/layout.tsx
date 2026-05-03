@@ -16,6 +16,9 @@ const caveat = Caveat({
 export const metadata: Metadata = {
   title: "TrueBrands | Digital Marketing Agency",
   description: "We Build & Scale Digital Brands. Premium SEO, Social Media, and Performance Marketing services.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
