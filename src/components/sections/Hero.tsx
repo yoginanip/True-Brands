@@ -6,7 +6,7 @@ import { ArrowRight, Star } from "lucide-react";
 
 export const Hero = () => {
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center pt-24 overflow-hidden bg-background">
+    <section className="relative min-h-[85vh] md:min-h-[90vh] flex items-center justify-center pt-16 md:pt-24 overflow-hidden bg-background">
       {/* Background gradients */}
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-accent/20 rounded-full blur-[128px] opacity-70" />
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent-purple/10 rounded-full blur-[128px] opacity-70" />

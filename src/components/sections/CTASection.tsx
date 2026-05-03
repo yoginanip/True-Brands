@@ -36,7 +36,7 @@ export const CTASection = () => {
             backgroundSize: "40px 40px"
           }} />
 
-          <div className="relative z-10 p-10 md:p-16 lg:p-20">
+          <div className="relative z-10 p-6 sm:p-10 md:p-16 lg:p-20">
             <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
 
               {/* Left: Text & CTAs */}
@@ -89,9 +89,8 @@ export const CTASection = () => {
                 </p>
               </div>
 
-              {/* Right: Promise Cards */}
-              <div className="w-full lg:w-auto shrink-0">
-                <div className="grid grid-cols-3 lg:grid-cols-1 gap-4 lg:gap-5">
+              <div className="w-full lg:w-auto shrink-0 mt-8 lg:mt-0">
+                <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-1 gap-4 lg:gap-5">
                   {stats.map((stat, i) => {
                     const Icon = stat.icon;
                     return (

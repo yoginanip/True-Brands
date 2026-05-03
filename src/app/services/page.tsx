@@ -91,7 +91,7 @@ export default function ServicesPage() {
   return (
     <>
       <Navbar />
-      <main className="flex-grow pt-32 pb-24 relative overflow-hidden">
+      <main className="flex-grow pt-24 md:pt-32 pb-16 md:pb-24 relative overflow-hidden">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[400px] bg-accent/8 blur-[140px] rounded-full -z-10 pointer-events-none" />
 
         <div className="container mx-auto px-6 max-w-5xl">

@@ -41,7 +41,7 @@ export default function AboutPage() {
   return (
     <>
       <Navbar />
-      <main className="flex-grow pt-32 pb-24 relative overflow-hidden">
+      <main className="flex-grow pt-24 md:pt-32 pb-16 md:pb-24 relative overflow-hidden">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-3xl h-[500px] bg-accent/8 blur-[150px] rounded-full -z-10 pointer-events-none" />
 
         <div className="container mx-auto px-6">
@@ -130,7 +130,7 @@ export default function AboutPage() {
               <h2 className="text-3xl font-bold text-white mb-3">Our Promise to You</h2>
               <p className="text-gray-400">We hold ourselves accountable to these commitments — not because we have to, but because it&apos;s the right way to do business.</p>
             </div>
-            <div className="grid sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
               {promises.map((promise, i) => (
                 <div key={i} className="flex items-start gap-3 p-4 bg-[#0D141C]/50 rounded-xl border border-white/5">
                   <CheckCircle2 className="w-5 h-5 text-accent shrink-0 mt-0.5" />
@@ -143,7 +143,7 @@ export default function AboutPage() {
           {/* Why Choose Us */}
           <div className="mb-4 text-center max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-10 text-white">Why Choose TrueBrands?</h2>
-            <div className="grid sm:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
               {whyUs.map((w, i) => {
                 const Icon = w.icon;
                 return (

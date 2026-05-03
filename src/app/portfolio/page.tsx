@@ -80,7 +80,7 @@ export default function PortfolioPage() {
   return (
     <>
       <Navbar />
-      <main className="flex-grow pt-32 pb-24 relative overflow-hidden">
+      <main className="flex-grow pt-24 md:pt-32 pb-16 md:pb-24 relative overflow-hidden">
         <div className="absolute -top-10 right-1/4 w-[500px] h-[400px] bg-violet-500/8 blur-[140px] rounded-full -z-10 pointer-events-none" />
 
         <div className="container mx-auto px-6 max-w-5xl">
@@ -125,7 +125,7 @@ export default function PortfolioPage() {
                   </div>
 
                   {/* Result pills */}
-                  <div className="flex gap-3 flex-wrap">
+                  <div className="grid grid-cols-1 xs:grid-cols-2 sm:flex gap-2 sm:gap-3 flex-wrap">
                     {study.results.map((r, i) => (
                       <div key={i} className="text-center px-4 py-2 rounded-xl bg-white/5 border border-white/8">
                         <div className="text-base font-black text-white">{r.metric}</div>

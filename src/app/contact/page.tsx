@@ -52,7 +52,7 @@ export default function ContactPage() {
   return (
     <>
       <Navbar />
-      <main className="flex-grow pt-32 pb-24 relative overflow-hidden">
+      <main className="flex-grow pt-24 md:pt-32 pb-16 md:pb-24 relative overflow-hidden">
         {/* Background glows */}
         <div className="absolute top-0 right-0 w-1/2 h-[500px] bg-accent/8 blur-[150px] rounded-full -z-10 pointer-events-none" />
         <div className="absolute bottom-0 left-0 w-1/2 h-[400px] bg-accent-purple/10 blur-[130px] rounded-full -z-10 pointer-events-none" />
