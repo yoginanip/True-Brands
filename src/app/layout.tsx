@@ -14,6 +14,7 @@ const caveat = Caveat({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://truebrands.in"),
   title: "TrueBrands | Digital Marketing Agency",
   description: "We Build & Scale Digital Brands. Premium SEO, Social Media, and Performance Marketing services.",
   icons: {
